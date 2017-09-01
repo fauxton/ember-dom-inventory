@@ -4,6 +4,14 @@
 module.exports = {
   name: 'ember-dom-inventory',
 
+  afterInstall() {
+    return this.addAddonsToProject({
+      packages: [
+        { name: 'ember-addon-state-bucket' }
+      ]
+    });
+  },
+
   setupPreprocessorRegistry(type, registry) {
     var DomInventory = require('./lib/dom-inventory');
 
