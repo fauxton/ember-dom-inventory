@@ -1,6 +1,6 @@
 {
   "name": "ember-dom-inventory",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -18,7 +18,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.3.0",
     "ember-addon-state-bucket": "0.0.3"
   },
   "devDependencies": {
