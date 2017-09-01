@@ -1,6 +1,15 @@
 # ember-dom-inventory
 
-This README outlines the details of collaborating on this Ember addon.
+This relies on the experimental
+[ember-addon-state-bucket](https://github.com/fauxton/ember-addon-state-bucket)
+addon to persist metadata about the Handlebars templates contained within an
+Ember-CLI application.
+
+Specifically, this addon saves information about the unique HTML tags and
+classes within an app, so that other addons can act on it. In my case, I'd like
+to identify unused classes in my stylesheets and warn in development/remove in
+production builds.
+
 
 ## Installation
 
