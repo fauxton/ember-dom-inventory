@@ -5,7 +5,7 @@ module.exports = {
   name: 'ember-dom-inventory',
 
   setupPreprocessorRegistry(type, registry) {
-    var DomInventory = require('./lib/class-counter');
+    var DomInventory = require('./lib/dom-inventory');
 
     registry.add('htmlbars-ast-plugin', {
       name: 'inventory-dom-elements-and-classes',
