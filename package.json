@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.3.0",
-    "ember-addon-state-bucket": "0.0.3"
+    "ember-addon-state-bucket": "0.0.4"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
